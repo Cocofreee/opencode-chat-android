@@ -1,4 +1,4 @@
-# AGENTS.md — opencode-chat (GitHub: FernandoMiguel/opencode-chat-android, branch `main`)
+# AGENTS.md — opencode-chat (GitHub: Cocofreee/opencode-chat-android, branch `main`)
 
 Single-module Android app. AGP 8.7.3, Kotlin 2.0.21, compile/targetSdk 35, minSdk 34. No tests, no CI, no lint. `gh` is authed as FernandoMiguel.
 

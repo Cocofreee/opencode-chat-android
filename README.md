@@ -21,7 +21,7 @@ Android chat client for [OpenCode Zen](https://opencode.ai/docs/zen), [OpenCode 
 ## Build
 
 ```sh
-git clone https://github.com/FernandoMiguel/opencode-chat-android.git
+git clone https://github.com/Cocofreee/opencode-chat-android.git
 cd opencode-chat-android
 ./gradlew :app:assembleDebug
 ```
@@ -30,7 +30,7 @@ The APK lands at `app/build/outputs/apk/debug/app-debug.apk`.
 
 ## Install
 
-- **From releases:** download the APK from the [latest release](https://github.com/FernandoMiguel/opencode-chat-android/releases), open it on the phone, allow "Install unknown apps" for the browser when prompted, and install. Builds are debug-signed previews, not Play releases.
+- **From releases:** download the APK from the [latest release](https://github.com/Cocofreee/opencode-chat-android/releases), open it on the phone, allow "Install unknown apps" for the browser when prompted, and install. Builds are debug-signed previews, not Play releases.
 - **Via adb** (USB debugging on, computer authorized):
   ```sh
   adb install app/build/outputs/apk/debug/app-debug.apk
@@ -44,3 +44,17 @@ Then open the app → Settings → pick a provider → save its API key.
 - OpenRouter training/retention policy: `GET https://openrouter.ai/api/frontend/v1/all-providers`
 - Zen exceptions: https://opencode.ai/docs/zen#privacy · Go table: https://opencode.ai/docs/go#privacy
 - Badges are fail-closed: unknown free-tier models show no badge rather than a shield. See `privacyFor*` in `app/src/main/java/net/lichias/opencodechat/data/ApiClient.kt`.
+
+## License
+
+Copyright (C) 2026 Fernando Miguel
+
+Contact: chat@cocofree.dev
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+See `LICENSE` for the full text.
+SPDX-License-Identifier: AGPL-3.0-or-later
